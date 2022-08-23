@@ -1,0 +1,9 @@
+n1=int(input('Enter the 1st number: '))
+n2=int(input('Enter the 2nd number: '))
+n3=int(input('Enter the 1st number: '))
+av=(n1+n2+n3)/3
+sums=n1+n2+n3
+multi=n1*n2*n3
+print(f'The average of three integers = {av:.2f}')
+print(f'The summation of three integers = {sums:.2f}')
+print(f'The multiplication of three integers = {multi:.2f}')
